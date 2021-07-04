@@ -1,0 +1,26 @@
+    body{
+        font-family: 'Poppins', sans-serif;
+    }
+    .orenge{
+        color: orangered;
+    }
+    h1{
+        font-size: 32px;
+    }
+    section{
+        display: flex;
+    }
+    .half{
+        width: 50%;
+        padding: 3%;
+    }
+    .half img{
+        width: 90%;
+    }
+    .link  {
+       text-decoration: none;
+       background-image: linear-gradient(orange, tomato);
+       border-radius: 9px;
+       padding: 10px 15px;
+       font-weight: 900;
+    }
