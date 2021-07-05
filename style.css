@@ -1,15 +1,23 @@
     body{
         font-family: 'Poppins', sans-serif;
+        margin: 0;
     }
+    
     .orenge{
         color: orangered;
     }
     h1{
         font-size: 32px;
     }
-    section{
+    .topbnr{
+       background-image: url(top-banner.png);
+       background-repeat: no-repeat;
+       
+
+    }
+    .flxibl{
         display: flex;
-        margin-bottom: 110px;
+       
     }
     .half{
         width: 50%;
@@ -25,6 +33,14 @@
        padding: 10px 15px;
        font-weight: 900;
     }
-    .border{
-        border: solid orangered;
+    
+    .lyrics{
+        width: 40%;
+        margin: 3%;
+        box-shadow: 10px 10px 40px gray;
+       border-radius: 15px;
+        padding: 10px;
+    }
+    .bodr{
+        border-left:10px solid blueviolet;
     }
